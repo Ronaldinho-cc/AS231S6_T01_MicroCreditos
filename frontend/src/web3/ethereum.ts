@@ -1,5 +1,6 @@
 import detectEthereumProvider from '@metamask/detect-provider'
-import { BrowserProvider, Eip1193Provider, JsonRpcSigner } from 'ethers'
+import { BrowserProvider, JsonRpcSigner } from 'ethers'
+import type { Eip1193Provider } from 'ethers'
 
 export type WalletConnection = {
 	accountAddress: string
